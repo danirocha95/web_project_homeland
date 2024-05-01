@@ -3,7 +3,7 @@
     align-items: center;
 }
 
-.footer__paragraph{
+.footer__copyright{
     font-family: "Inter";
     color: #FFFFFF;
     font-size: 14px;
@@ -19,7 +19,7 @@
     .footer{
       max-width: 768px;
     }
-    .footer__paragraph{
+    .footer__copyright{
       margin-top: 88px; 
       
     }
@@ -29,7 +29,7 @@
     .footer{
       max-width: 320px;
     }
-    .footer__paragraph{
+    .footer__copyright{
       line-height: 1.1;
       text-align: left;
       margin-top: 64px;

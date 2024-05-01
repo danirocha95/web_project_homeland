@@ -16,7 +16,7 @@
     margin-bottom: 40px;
 }
 
-.intro__paragraph__quote{
+.intro__paragraph{
     font-family: "Inter";
     color: #FFFFFF;
     font-size: 24px;
@@ -29,7 +29,7 @@
     margin-bottom: 10px;
 }
 
-.intro__paragraph__quote-2{
+.intro__author{
     font-family: "Inter";
     color: #FFFFFF;
     font-size: 24px;
@@ -42,7 +42,7 @@
     margin-bottom: 32px;
 }
 
-.intro__paragraph__text{
+.intro__text{
     font-family: "Inter";
     color: #FFFFFF;
     font-size: 16px;
@@ -66,17 +66,17 @@
     padding-left: 24px;
     margin-bottom: 50px;
     }
-  .intro__paragraph__quote{
+  .intro__paragraph{
       max-width: 720px;
       margin: 0 auto;
       padding: 0px;
       margin-bottom: 26px;
     }
-    .intro__paragraph__quote-2{
+    .intro__author{
       max-width: 720px; 
       padding: 0px;
     }
-    .intro__paragraph__text{
+    .intro__text{
       width: 720px;
       padding: 0px;
       margin: 0 auto;        
@@ -94,17 +94,17 @@
         padding-left: 16px;
         margin-bottom: 40px;
     }
-      .intro__paragraph__quote{
+      .intro__paragraph{
         max-width: 288px;
         line-height: 1.1;
         margin-bottom: 10px;  
     }
-      .intro__paragraph__quote-2{
+      .intro__author{
         max-width: 288px;
         padding: 0px;
         margin-bottom: 32px;
     }
-      .intro__paragraph__text{
+      .intro__text{
         max-width: 288px;
     }
 }
