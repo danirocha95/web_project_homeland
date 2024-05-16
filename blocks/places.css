@@ -19,7 +19,7 @@
     "  span    description";
 }
 
-.places__title{
+.places__card-title{
     font-family: "Inter";
     font-size: 72px;
     font-weight: 900;
@@ -32,7 +32,7 @@
     grid-area: title;
 }
 
-.places__website__text-container{
+.places__card-text-container{
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
@@ -40,7 +40,7 @@
    grid-area: subtitle;
 }
 
-.places__website__url-heading{
+.places__card-url-heading{
     font-family: "Inter";
     font-size: 12px;
     font-weight: 400;
@@ -53,7 +53,7 @@
     margin-bottom: 8px;
 }
 
-.places__website__artist{
+.places__card-artist{
     font-family: "Inter";
     font-size: 18px;
     font-weight: 400;
@@ -64,7 +64,7 @@
     margin:0px;
 }
 
-.places__image{
+.places__card-image{
     width: 100%;
     height: 100%;
     max-width: 460px;
@@ -78,11 +78,11 @@
     opacity: 0.5;
 }
 
-.places__paragraph-container{
+.places__card-paragraph-container{
    grid-area: description;
 }
 
-.places__paragraph{
+.places__card-paragraph{
     font-family: "Inter";
     font-size: 18px;
     font-weight: 400;
@@ -93,7 +93,7 @@
     margin-top: 0px;
 }
 
-.places__link{
+.places__card-link{
     font-family: "Inter";
     font-size: 18px;
     font-weight: 600;
@@ -110,7 +110,7 @@
     grid-area: button;
 }
 
-.places__link:hover{
+.places__card-link:hover{
     background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
 }
 
@@ -121,15 +121,15 @@
         margin-top: 88px;
         grid-column-gap: 28px;
     }
-    .places__title{
+    .places__card-title{
         font-size: 42px;
         max-width: 340px;
     }
-    .places__image{
+    .places__card-image{
         max-width: 340px;
         max-height: 340px;
     }
-    .places__paragraph{
+    .places__card-paragraph{
         font-size: 16px;
         text-align: left;
         max-width: 352px;
@@ -150,20 +150,20 @@
         "description"
         "button";
     }
-    .places__title{
+    .places__card-title{
         font-size: 32px;
         padding-left: 16px;
         padding-right: 16px;
     }   
-    .places__website__text-container{
+    .places__card-text-container{
         padding-left: 16px;
         padding-right: 16px;
     }
-    .places__paragraph-container{
+    .places__card-paragraph-container{
         padding-left: 16px;
         padding-right: 16px;
     }
-    .places__link{  
+    .places__card-link{  
         max-width: 288px;
         font-size: 14px;
         text-align: center;
