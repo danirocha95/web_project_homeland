@@ -1,6 +1,7 @@
 .places{
     display: flex;
     flex-direction: column;
+    margin-top: 92px;
 }
 
 .places__card{
@@ -90,11 +91,6 @@
     color: #FFFFFF;
     max-width: 484px;
     margin-top: 0px;
-    
-}
-
-.places__frame-6{
-    grid-area: button;
 }
 
 .places__link{
@@ -104,12 +100,14 @@
     line-height: 1.2;
     text-align: left;
     color: #FFFFFF;
+    max-width: 356px;
     padding: 13px 20px 13px 20px;
     border-radius: 4px;
     background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
     gap: 10px;
     text-decoration: none;
+    grid-area: button;
 }
 
 .places__link:hover{
@@ -148,7 +146,6 @@
 
         max-width: 320px;
         margin-top: 50px;
-        margin-bottom: 50px;
 
         grid-row-gap: 30px;
         grid-template-columns: (1, 1);
@@ -161,19 +158,27 @@
     }
     .places__title{
         font-size: 32px;
-        max-width: 288px;
-    }   
-    .places__link{  
         padding-left: 16px;
         padding-right: 16px;
+    }   
+    .places__website__text-container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .places__paragraph-container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .places__link{  
+        max-width: 288px;
         font-size: 14px;
         text-align: center;
         background: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
     }
-    
 }
     
   
+
 
 
 
