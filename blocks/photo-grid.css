@@ -24,7 +24,6 @@
     .photo-grid__images {
         max-width: 352px;
         max-height: 264px;
-
     }
 }    
 
@@ -38,9 +37,6 @@
     .photo-grid__images {
         max-width: 288px;
         max-height: 216px;
-
-
-
     }
 }
 

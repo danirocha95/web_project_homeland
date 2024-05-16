@@ -20,10 +20,6 @@
     .footer{
       max-width: 768px;
     }
-    .footer__copyright{
-     
-      
-    }
 }
 
 @media screen and (max-width: 320px){
@@ -33,6 +29,5 @@
     .footer__copyright{
       line-height: 1.1;
       text-align: left;
-      
     }
 }
