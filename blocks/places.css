@@ -4,7 +4,7 @@
     margin-top: 92px;
 }
 
-.places__card{
+.places-card{
     margin-top: 80px;
 
     display: grid;
@@ -19,7 +19,7 @@
     "  span    description";
 }
 
-.places__card-title{
+.places-card__title{
     font-family: "Inter";
     font-size: 72px;
     font-weight: 900;
@@ -32,7 +32,7 @@
     grid-area: title;
 }
 
-.places__card-text-container{
+.places-card__text-container{
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
@@ -40,7 +40,7 @@
    grid-area: subtitle;
 }
 
-.places__card-url-heading{
+.places-card__url-heading{
     font-family: "Inter";
     font-size: 12px;
     font-weight: 400;
@@ -53,7 +53,7 @@
     margin-bottom: 8px;
 }
 
-.places__card-artist{
+.places-card__artist{
     font-family: "Inter";
     font-size: 18px;
     font-weight: 400;
@@ -64,7 +64,7 @@
     margin:0px;
 }
 
-.places__card-image{
+.places-card__image{
     width: 100%;
     height: 100%;
     max-width: 460px;
@@ -74,15 +74,15 @@
     grid-area: image;
 }
 
-.places__image:hover {
+.places-card__image:hover {
     opacity: 0.5;
 }
 
-.places__card-paragraph-container{
+.places-card__paragraph-container{
    grid-area: description;
 }
 
-.places__card-paragraph{
+.places-card__paragraph{
     font-family: "Inter";
     font-size: 18px;
     font-weight: 400;
@@ -93,7 +93,7 @@
     margin-top: 0px;
 }
 
-.places__card-link{
+.places-card__link{
     font-family: "Inter";
     font-size: 18px;
     font-weight: 600;
@@ -110,26 +110,26 @@
     grid-area: button;
 }
 
-.places__card-link:hover{
+.places-card__link:hover{
     background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
 }
 
 
 @media screen and (max-width: 768px) {
-.places__card{
+.places-card{
         max-width: 768px;
         margin-top: 88px;
         grid-column-gap: 28px;
     }
-    .places__card-title{
+    .places-card__title{
         font-size: 42px;
         max-width: 340px;
     }
-    .places__card-image{
+    .places-card__image{
         max-width: 340px;
         max-height: 340px;
     }
-    .places__card-paragraph{
+    .places-card__paragraph{
         font-size: 16px;
         text-align: left;
         max-width: 352px;
@@ -137,7 +137,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .places__card{
+    .places-card{
 
         max-width: 320px;
         margin-top: 50px;
@@ -150,20 +150,20 @@
         "description"
         "button";
     }
-    .places__card-title{
+    .places-card__title{
         font-size: 32px;
         padding-left: 16px;
         padding-right: 16px;
     }   
-    .places__card-text-container{
+    .places-card__text-container{
         padding-left: 16px;
         padding-right: 16px;
     }
-    .places__card-paragraph-container{
+    .places-card__paragraph-container{
         padding-left: 16px;
         padding-right: 16px;
     }
-    .places__card-link{  
+    .places-card__link{  
         max-width: 288px;
         font-size: 14px;
         text-align: center;
